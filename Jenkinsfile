@@ -19,13 +19,13 @@ pipeline {
             }
         }
         
-         stage('Build') {
+         stage('Vamshi Build') {
             steps {
                 // Get some code from a GitHub repository
                  sh 'mvn -B -DskipTests clean package'
             }
         }
-        stage('Test') {
+        stage('Vamshi Test') {
             steps {
                 // Get some code from a GitHub repository
                  sh 'mvn test'
