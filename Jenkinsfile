@@ -7,7 +7,7 @@ pipeline {
     }
 
     stages {
-        stage('Fetch') {
+        stage('DING Fetch') {
             steps {
                 // Get some code from a GitHub repository
               git branch: 'main', url: 'https://github.com/kudapavamshi/jenkins.git'
